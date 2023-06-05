@@ -9,8 +9,7 @@ import {
   MantineProvider,
   Switch,
   Flex,
-  Alert,
-  ActionIcon,
+  Alert
 } from "@mantine/core";
 import "./App.css";
 import { Uploader } from "./Uploader";
