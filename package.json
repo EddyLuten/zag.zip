@@ -1,6 +1,7 @@
 {
   "name": "zag.zip",
   "version": "0.1.0",
+  "homepage": "https://zap.zip/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",

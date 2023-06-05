@@ -10,11 +10,13 @@ import {
   Switch,
   Flex,
   Alert,
+  ActionIcon,
 } from "@mantine/core";
 import "./App.css";
 import { Uploader } from "./Uploader";
 import {
   IconAlertCircle,
+  IconBrandGithub,
   IconFileZip,
   IconMoonStars,
   IconSun,
@@ -193,7 +195,15 @@ function App() {
           <Grid.Col span={12}>
             <Text color={theme.colors.gray[6]} size="sm" align="center" p={20}>
               A weekend project by{" "}
-              <Anchor href="https://luten.dev/">Eddy Luten</Anchor> &copy; 2023
+              <Anchor href="https://luten.dev/">Eddy Luten</Anchor>
+              &copy; 2023.{' '}
+              <Anchor
+                title="View source on GitHub"
+                target="_blank"
+                href="https://github.com/EddyLuten/zag.zip"
+              >
+                <IconBrandGithub size="1rem" />
+              </Anchor>
             </Text>
           </Grid.Col>
         </Grid>
